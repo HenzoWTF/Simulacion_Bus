@@ -36,7 +36,7 @@ class Program
                 Console.WriteLine($"Estación {origen + 1}: Suben {personasSuben} personas, quedan esperando {estaciones[origen]}.");
                 Console.WriteLine($"Pasajeros en el bus: {personasEnBus}");
 
-                // Variables que pueden afectar el tiempo
+                // Variables que pueden afectar el tiempo con sus probabilidades
                 bool ponchadura = rand.Next(1, 11) <= 2;
                 bool lluvia = rand.Next(1, 11) <= 3;
                 bool trafico = rand.Next(1, 11) <= 4;
